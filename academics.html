@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>harvard.edu</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="/script.js"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.png" width="100px" /></a>
+        </div>
+        <div class="navbar" id="navBar">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./academics.html">Academics</a></li>
+            <li><a href="./campus.html">Campus</a></li>
+            <li><a href="./infocus.html">In Focus</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="textofacademia">
+        <h1>Academics</h1>
+        <p>
+          Harvard students create and apply knowledge by thinking and doing,<br />
+          preparing for leadership in a rapidly changing world.
+        </p>
+      </div>
+    </section>
+    <!-- main section  -->
+    <section class="main">
+      <div class="rowofmain">
+        <div class="colofmain">
+          <hr />
+          <h1>1735</h1>
+          <h3>Faculty members</h3>
+          <hr />
+        </div>
+
+        <div class="colofmain">
+          <hr />
+          <h1>4:1</h1>
+          <h3>Student to faculty ratio</h3>
+          <hr />
+        </div>
+        <div class="colofmain">
+          <hr />
+          <h1>Nearly 100</h1>
+          <h3>Fields of study</h3>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <section class="main-sec">
+     
+      <div class="rowofmain-sec">
+          
+        <div class="colofmain-sec">
+          <img src="./images/img13.jpg" alt="" srcset="">
+        </div>
+        <div class="colofmain-sec">
+         <h2>Undergraduate Education</h2>
+         <p>Harvard Undergrad is your guide to
+              undergraduate academics and opportunities run by the Vice Provost for Undergraduate Education. <br>
+              <a class="linkagain" href="#">Harvard Undergrad</a></p>
+              <h2>Majors</h2>
+              <p>Explore the more than 45 major fields of undergraduate study at Harvard University. <br>
+              <a class="linkagain" href="#">Explore Majors</a></p>
+              <h2>Undergraduate Facts & Figures</h2>
+              <p>Approximately 4,000 undergraduate students attend Harvard.
+                   Learn more about the undergraduate program and student body. <br>
+                   <a class="linkagain" href="#">Facts about the Undergraduate Program</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="main">
+     
+
+        
+         
+    </section> -->
+    <section class="mid">
+      <div class="mid-sec">
+        <h1>Harvard University offers students boundless opportunities to <br> pursue their
+           passions and collaborate on solving complex <br> global problems.</h1>
+           <div class="btn">
+           <a href="#">Learn More</a>
+           </div>
+      </div>
+    </section>
+<!-- <hr> -->
+    <section class="main-sec">
+     
+      <div class="rowofmain-sec">
+          
+        <div class="colofmain-sec">
+          
+          <h2>Graduate Studies</h2>
+         
+               <h2>Majors</h2>
+               <p>Explore the more than 45 major fields of undergraduate study at Harvard University. <br>
+               <a class="linkagain" href="#">Explore Majors</a></p>
+               <h2>Graduate Facts & Figures</h2>
+               <p>Today, 9,390 students are pursuing 14 distinct postgraduate degrees in nearly 200 graduate programs in all Harvard schools. 
+                 Learn more about graduate studies at Harvard. <br>
+                    <a class="linkagain" href="#">Facts about the Graduate Program</a></p>
+         
+        </div>
+        <div class="colofmain-sec">
+          <img src="./images/img16.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+    <section class="footerofacademics">
+      <h1>HARVARD UNIVERSITY</h1>
+      <h4>BE BOUNDLESS</h4>
+      <h5>Connect with us</h5>
+      <div class="socialofacademia">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-pinterest"></i>
+      </div>
+      <nav-s>
+        <div class="extralinksofacademia">
+          <ul>
+            <li><a href="#"> Accessibility</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Campus Safety</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </nav-s>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navBar");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

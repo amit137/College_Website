@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>harvard.edu</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="/script.js"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.png" width="100px" /></a>
+        </div>
+        <div class="navbar" id="navBar">
+          
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./academics.html">Academics</a></li>
+            <li><a href="./campus.html">Campus</a></li>
+            <li><a href="./infocus.html">In Focus</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </div>
+        
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text">
+        <h1>HARVARD UNIVERSITY</h1>
+        <p>
+          Harvard University is devoted to excellence in teaching, learning, and
+          research, and to developing leaders who make a difference globally.
+        </p>
+      </div>
+    </section>
+
+
+    
+    <section class="background">
+      <section class="events">
+        <h2> Harvard News</h2>
+        <p>
+          This Year's stories from Harvard
+         
+        </p>
+
+        <div class="row">
+          <div class="event">
+            <img src="./images/img9.jpg" />
+            <h4>JANUARY</h4>
+            <h3>First Week of Winter Quarter Online</h3>
+            <p>
+              To foster a successful start to the winter quarter, most classes
+              will be held online Jan. 3-9. Campus services and facilities will
+              be open during this time.
+            </p>
+          </div>
+          <div class="event">
+            <img src="./images/img7.jpg" />
+            <h4>FEBRUARY</h4>
+            <h3>Our Initiative</h3>
+            <p>
+              Education is not a privilege. It is a human right. 
+               The right to education is legally guaranteed for all without any discrimination
+            </p>
+          </div>
+          <div class="event">
+            <img src="./images/img8.jpg" />
+            <h4>MARCH</h4>
+            <h3>Can a dangerous microbe offer a new way to silence pain?</h3>
+            <p>
+             A new study shows that a toxin from the microbe that causes anthrax can silence multiple types of pain in mice.
+               Researchers found the toxin targets pain-sensing cells to alter signaling and block pain.
+            </p>
+          </div>
+          <div class="event">
+            <img src="./images/img15.jpg" />
+            <h4>APRIL</h4>
+            <h3>College Accepts 620 Students under early action program</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequatur dolore corporis, dignissimos rerum mollitia alias.
+            </p>
+          </div>
+          <div class="event">
+            <a href="#">
+            <img src="./images/img14.jpg" /></a>
+            <h4>MAY</h4>
+            <h3>Synthetic tissue can repair hearts, muscles, and vocal cords</h3>
+            <p>
+              Combining knowledge of chemistry, physics, biology, and engineering, scientists from Harvard University develop a biomaterial tough enough to repair the heart, muscles, 
+              and vocal cords, representing a major advance in regenerative medicine
+            </p>
+          </div>
+          <div class="event">
+            <img src="./images/img8.jpg" />
+            <h4>JUNE</h4>
+            <h3>heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequatur dolore corporis, dignissimos rerum mollitia alias.
+            </p>
+          </div>
+          
+        </div>
+        <div class="btn">
+          <a href="./event.html">More about it here</a>
+        </div>
+      </section>
+  
+
+      <section class="memories">
+
+      </section>
+
+
+
+
+
+    </section>
+
+    <!-- footer section  -->
+    <section class="footer">
+      <h1>HARVARD UNIVERSITY</h1>
+      <h4>BE BOUNDLESS</h4>
+      <h5>Connect with us </h5>
+      <div class="social">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+       <i class="fa fa-youtube"></i>
+       <i class="fa fa-pinterest"></i>
+       
+      </div>
+      <nav-s>
+      <div class="extralinks">
+        <ul>
+          <li><a href="#"> Accessibility</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Campus Safety</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      </nav-s>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navBar");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
